@@ -13,7 +13,6 @@ refs.form.addEventListener(`submit`, onFormSubmit);
 
 function onFormSubmit(event) {
   event.preventDefault();
-  event.currentTarget.reset();
   let initialDelay = Number(refs.delay.value);
   const step = Number(refs.step.value);
   const amount = Number(refs.amount.value);
